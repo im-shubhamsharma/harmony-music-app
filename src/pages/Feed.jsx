@@ -11,7 +11,7 @@ const Feed = () => {
         sx={{
           marginLeft: { xs: "auto", md: "12%" },
           marginTop: "10vh",
-          border: "2px solid orange",
+          // border: "2px solid orange",
           width: { sm: "auto", md: "50%" },
           overflowY: "auto",
           p: 4,

@@ -6,6 +6,7 @@ import Feed from "./pages/Feed";
 import Sidebar from "./components/Sidebar";
 import MusicPlayer from "./pages/MusicPlayer";
 
+
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
@@ -13,6 +14,8 @@ const darkTheme = createTheme({
 });
 
 function App() {
+ 
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />

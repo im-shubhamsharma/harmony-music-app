@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Card from "@mui/material/Card";
 import { Box, Button, TextField, InputAdornment, ListItemSecondaryAction } from "@mui/material";
 
 import SearchIcon from "@mui/icons-material/Search";
@@ -11,16 +12,16 @@ const Search = () => {
   }
 
   return (
-    <Box
+    <Card
       sx={{
         position: "fixed",
         top: 0,
-        width: {xs:"100%", md:"88%"},
+        width: {xs:"100%", md:"max-content"},
         marginLeft: {xs:"auto", md:"12%"},
         display: "flex",
         flexDirection: { xs: "column", md: "row" },
         alignItems: "Center",
-        border: "2px solid",
+        // border: "2px solid",
         height: { xs: "auto", md: "10vh" },
         p: { xs: 2, md: "2rem" },
         gap: { xs: "1rem" },
@@ -49,11 +50,11 @@ const Search = () => {
             ),
           }}
           sx={{
-            width: { sm: "100%", md: "30rem" },
+            width: { sm: "100%", md: "55rem" },
           }}
         />
       </Box>
-    </Box>
+    </Card>
   );
 };
 
